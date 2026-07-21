@@ -1,0 +1,40 @@
+﻿{
+    "versions":  [
+                     {
+                         "filename":  "NovaEngine-1.0.0-alpha.zip",
+                         "version":  "1.0.0-alpha",
+                         "downloads":  0,
+                         "notes":  [
+                                       "Initial alpha release",
+                                       "2D and 3D game engine with software renderer",
+                                       "Visual editor with scene hierarchy, inspector, and viewport",
+                                       "Steam library import with direct Steam launching",
+                                       "Built-in game store with coin economy and owner verification",
+                                       "Multi-platform build targets",
+                                       "Cloud saves, achievements, and friend system",
+                                       "CLI tool for project management",
+                                       "Sample platformer demo included"
+                                   ],
+                         "date":  "2026-07-20",
+                         "size":  "419 KB"
+                     },
+                     {
+                         "version":  "1.0.0-alpha",
+                         "date":  "2026-07-20",
+                         "filename":  "NovaEngine-1.0.0-alpha.zip",
+                         "size":  "â€”",
+                         "downloads":  0,
+                         "notes":  [
+                                       "Initial alpha release",
+                                       "2D and 3D game engine with software renderer",
+                                       "Visual editor with scene hierarchy, inspector, and viewport",
+                                       "Steam library import with direct Steam launching",
+                                       "Built-in game store with coin economy and owner verification",
+                                       "Multi-platform build targets (Windows, Linux, macOS, Web)",
+                                       "Cloud saves, achievements, and friend system",
+                                       "CLI tool for project management",
+                                       "Sample platformer demo included"
+                                   ]
+                     }
+                 ]
+}

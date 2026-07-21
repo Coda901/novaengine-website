@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaEngine - Download</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 600px;
+        }
+        .logo {
+            font-size: 48px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #40a0ff, #a060ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+        }
+        .tagline {
+            font-size: 16px;
+            color: #888;
+            margin-bottom: 32px;
+        }
+        .version {
+            display: inline-block;
+            background: rgba(64,160,255,0.1);
+            border: 1px solid rgba(64,160,255,0.2);
+            color: #40a0ff;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 32px;
+        }
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 18px 48px;
+            background: linear-gradient(135deg, #40a0ff, #3080dd);
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 14px;
+            box-shadow: 0 4px 32px rgba(64,160,255,0.3);
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 40px rgba(64,160,255,0.45);
+        }
+        .download-btn svg {
+            width: 22px;
+            height: 22px;
+        }
+        .info {
+            margin-top: 40px;
+            font-size: 13px;
+            color: #555;
+        }
+        .info a { color: #40a0ff; text-decoration: none; }
+        .info a:hover { text-decoration: underline; }
+        .features {
+            display: flex;
+            gap: 24px;
+            margin-top: 48px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .feat {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 20px 24px;
+            width: 160px;
+        }
+        .feat-icon { font-size: 24px; margin-bottom: 8px; }
+        .feat h3 { font-size: 13px; font-weight: 600; color: #ccc; margin-bottom: 4px; }
+        .feat p { font-size: 11px; color: #777; line-height: 1.4; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">NovaEngine</div>
+        <p class="tagline">Game engine, editor, and distribution platform â€” all in one.</p>
+        <div class="version">v1.0.0-alpha &bull; Windows &bull; 419 KB</div>
+        <br>
+            <a class="download-btn" href="downloads/NovaEngine-1.0.0-alpha.zip" download>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Download NovaEngine
+        </a>
+        <p class="info">Requires .NET 8.0 Runtime &bull; <a href="https://dotnet.microsoft.com/download/dotnet/8.0" target="_blank">Get .NET 8.0</a></p>
+
+        <div class="features">
+            <div class="feat">
+                <div class="feat-icon">&#127918;</div>
+                <h3>Game Engine</h3>
+                <p>2D/3D rendering, physics, audio, scripting</p>
+            </div>
+            <div class="feat">
+                <div class="feat-icon">&#128736;</div>
+                <h3>Editor</h3>
+                <p>Visual editor with viewport and inspector</p>
+            </div>
+            <div class="feat">
+                <div class="feat-icon">&#128722;</div>
+                <h3>Store</h3>
+                <p>Publish and distribute games</p>
+            </div>
+            <div class="feat">
+                <div class="feat-icon">&#128229;</div>
+                <h3>Steam Import</h3>
+                <p>Import your Steam library</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
