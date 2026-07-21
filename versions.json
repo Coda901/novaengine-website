@@ -11,7 +11,9 @@
                 "Unlimited owner coins — verified owners see unlimited balance",
                 "Per-user libraries — each user gets their own game library",
                 "Deterministic user IDs — profiles persist across sessions",
-                "Owner keys work on any machine — no machine locking"
+                "Owner keys work on any machine — no machine locking",
+                "Fixed store crash — search box initialized before header",
+                "Enter-key verification flow in owner dialog"
             ]
         },
         {
