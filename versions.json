@@ -1,6 +1,20 @@
 ﻿{
     "versions": [
         {
+            "version": "1.2.1",
+            "date": "2026-07-21",
+            "filename": "NovaEngine-1.2.1.zip",
+            "size": "—",
+            "downloads": 0,
+            "notes": [
+                "Bulk key generation — choose how many keys to generate (1-1000)",
+                "Unlimited owner coins — verified owners see unlimited balance",
+                "Per-user libraries — each user gets their own game library",
+                "Deterministic user IDs — profiles persist across sessions",
+                "Owner keys work on any machine — no machine locking"
+            ]
+        },
+        {
             "version": "1.2.0",
             "date": "2026-07-21",
             "filename": "NovaEngine-1.2.0.zip",
