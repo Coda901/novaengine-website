@@ -1,6 +1,21 @@
 ﻿{
     "versions": [
         {
+            "version": "1.2.0",
+            "date": "2026-07-21",
+            "filename": "NovaEngine-1.2.0.zip",
+            "size": "—",
+            "downloads": 0,
+            "notes": [
+                "Paginated store — 40 games per page, no more crashes with 1200+ games",
+                "Steam store page integration — games open Steam page for license",
+                "Custom executable paths — launch any .exe or .lnk from your library",
+                "Library now shows all purchased games with Set Custom Exe option",
+                "Key generation restricted to verified owners only",
+                "1260+ games in NovaStore with Steam thumbnails"
+            ]
+        },
+        {
             "version": "1.1.0-alpha",
             "date": "2026-07-20",
             "filename": "NovaEngine-1.1.0-alpha.zip",
