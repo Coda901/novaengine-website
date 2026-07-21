@@ -93,6 +93,57 @@
         .feat-icon { font-size: 24px; margin-bottom: 8px; }
         .feat h3 { font-size: 13px; font-weight: 600; color: #ccc; margin-bottom: 4px; }
         .feat p { font-size: 11px; color: #777; line-height: 1.4; }
+        .instructions {
+            margin-top: 48px;
+            text-align: left;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 14px;
+            padding: 28px 32px;
+            max-width: 480px;
+            width: 100%;
+        }
+        .instructions h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        .step {
+            display: flex;
+            gap: 14px;
+            margin-bottom: 14px;
+            align-items: flex-start;
+        }
+        .step-num {
+            flex-shrink: 0;
+            width: 26px;
+            height: 26px;
+            background: rgba(64,160,255,0.15);
+            color: #40a0ff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .step-text {
+            font-size: 13px;
+            color: #aaa;
+            line-height: 1.5;
+            padding-top: 3px;
+        }
+        .step-text strong { color: #ddd; }
+        .step-text code {
+            background: rgba(255,255,255,0.08);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Consolas', monospace;
+            font-size: 12px;
+            color: #40a0ff;
+        }
     </style>
 </head>
 <body>
@@ -127,6 +178,30 @@
                 <div class="feat-icon">&#128229;</div>
                 <h3>Steam Import</h3>
                 <p>Import your Steam library</p>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h2>How to Install</h2>
+            <div class="step">
+                <div class="step-num">1</div>
+                <div class="step-text"><strong>Install .NET 8.0</strong> — Download and run the <a href="https://dotnet.microsoft.com/download/dotnet/8.0" target="_blank" style="color:#40a0ff">.NET 8.0 Desktop Runtime</a> (Windows x64). This is required to run NovaEngine.</div>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <div class="step-text"><strong>Download NovaEngine</strong> — Click the download button above. The zip file will be saved to your Downloads folder.</div>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <div class="step-text"><strong>Extract the zip</strong> — Right-click the downloaded file and choose <strong>"Extract All..."</strong>. Pick any folder you want.</div>
+            </div>
+            <div class="step">
+                <div class="step-num">4</div>
+                <div class="step-text"><strong>Run the editor</strong> — Open the extracted folder and double-click <code>NovaEngine.Editor.exe</code>. The editor will launch.</div>
+            </div>
+            <div class="step">
+                <div class="step-num">5</div>
+                <div class="step-text"><strong>Start creating</strong> — Use the editor to build games, browse the store, or import your Steam library.</div>
             </div>
         </div>
     </div>
